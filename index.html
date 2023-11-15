@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen's - Developer Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left-nav">
+                <span>Naveen's Porfolio</span>
+            </div>
+            <div class="right-nav">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="home-section">
+
+            <div class="right-sec">
+                <!-- <img src="Images/bg.png" alt=""> -->
+                <img src="Images/Naveen.jpg" alt="">
+            </div>
+            <div class="left-sec">
+                Hi, This is <span>Naveen Gupta</span>
+                <div>Welcome to My Portfolio...</div>
+                <span id="element"></span>
+            </div>
+
+
+
+        </section>
+        <section class="skills">
+            <div class="texts-content">
+                <h1>Skills..</h1>
+                <p>I have a good knowledge about the following technologies. I got these knowledge from different
+                    resource especially from my college through college proffessors..</p>
+            </div>
+            <div class="skill-items">
+                <div>
+                    <img src="Images/html5.png" alt="">
+                    <h3>HTML5</h3>
+                </div>
+                <div>
+                    <img src="Images/css.png"" alt="">
+                    <h3>CSS</h3>
+                </div>
+                <div>
+                    <img src=" Images/javascript.png" alt="">
+                    <h3>JavaScript</h3>
+                </div>
+                <div>
+                    <img src="Images/React.png" alt="">
+                    <h3>ReactJS</h3>
+                </div>
+                <div>
+                    <img src="Images/php.webp" alt="">
+                    <h3>PHP</h3>
+
+                </div>
+                <div>
+                    <img src="Images/nodejs.png" alt="">
+                    <h3>Node.js</h3>
+                </div>
+                <div>
+                    <img src="Images/express.png" alt="">
+                    <h3>ExpressJS</h3>
+                </div>
+                <div>
+                    <img src="Images/mysql-5.png" alt="">
+                    <h3>MySQL</h3>
+                </div>
+                <div>
+                    <img src="Images/MongoDB.png" alt="">
+                    <h3>MongoDB</h3>
+                </div>
+            </div>
+        </section>
+
+        <div style="height: 50px; width: 100%;"></div>
+    </main>
+</body>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'PHP', 'Node.JS', 'React.JS', 'Express.JS', "MongoDB", 'MySQL', 'Basics of Python', 'Basics of Java'],
+        typeSpeed: 50,
+    });
+</script>
+
+</html>
