@@ -258,7 +258,7 @@ main>p {
     width: 50%;
     align-items: center;
     gap: 10px;
-    padding: 4px;
+    padding-top: 5px;
 }
 
 .con-item i {
@@ -424,7 +424,7 @@ main>p {
         height: 100%;
     }
 
-    .education {
+    /* .education {
         align-items: center;
         width: 100vw;
         font-size: 10px;
@@ -432,7 +432,7 @@ main>p {
 
     .education div {
         height: 100px;
-    }
+    } */
 
     #status {
         display: none;
@@ -486,11 +486,9 @@ main>p {
     }
     
     .con-item {
-        display: flex;
-        width: 50%;
-        align-items: center;
-        gap: 10px;
-        padding: 4px;
+        
+        width: 70%;
+        
     }
     .social-contact {
         width: 100%;
