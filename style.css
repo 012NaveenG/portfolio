@@ -154,7 +154,7 @@ main {
     margin: 50px 0;
 }
 
-main h1 {
+main h1,h3 {
     margin: auto;
     text-align: center;
     border-bottom: 2px solid #fff;
@@ -183,7 +183,7 @@ main>p {
 }
 
 .project-container #proj-sec-1 div {
-    height: 250px;
+    height: 290px;
     width: 30%;
     background-color: #15075e;
     border-radius: 10px;
@@ -456,7 +456,7 @@ main>p {
 
     }
     .project-container #proj-sec-1 div {
-        height: 250px;
+        height: 290px;
         width: 100%;
         margin: 20px 0;
     }
